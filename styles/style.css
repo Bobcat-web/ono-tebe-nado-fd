@@ -25,7 +25,7 @@ body {
   gap: 24px;
   text-underline-offset: 2px;
 }
-a .header__links-list-item_no-bullit {
+.header__links-list-item_no-bullit {
   list-style: none;
   text-decoration: none;
 }

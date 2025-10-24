@@ -217,8 +217,8 @@ body {
   margin: 0 24px;
   padding: 35px 0 0 47px;
   justify-items: center;
-  grid-template-columns: 334px 1fr;
-  column-gap: 27px;
+  grid-template-columns: auto 2fr;
+  column-gap: 72px;
 }
 
 .about__logo {
@@ -237,6 +237,7 @@ body {
 .about_content {
   position: relative;
   margin-top: 133px;
+  justify-self: start;
 }
 .about__title {
   font-family: "Raleway", sans-serif;

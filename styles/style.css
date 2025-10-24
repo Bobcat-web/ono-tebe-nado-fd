@@ -1,6 +1,6 @@
 /* место для вашего кода */
 body {
-  width: 1052px;
+  width: 1100px;
 }
 
 .header__link,
@@ -54,6 +54,7 @@ a .header__links-list-item_no-bullit {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  padding: 165px 50px 106px 50px;
 }
 .letter-spacing-extended {
   letter-spacing: 30px;
@@ -76,9 +77,7 @@ a .header__links-list-item_no-bullit {
   background-color: rgb(0, 0, 0, 0.6);
   z-index: -1;
 }
-.cover__title {
-  padding: 165px 50px 106px 50px;
-}
+
 .cover__description {
   display: flex;
   justify-content: space-between;

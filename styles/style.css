@@ -228,6 +228,7 @@ body {
   border-radius: 50%;
   display: flex;
   justify-content: center;
+  justify-self: start;
   align-items: center;
 }
 .about__logo-image {
@@ -235,6 +236,7 @@ body {
 }
 .about_content {
   position: relative;
+  margin-top: 133px;
 }
 .about__title {
   font-family: "Raleway", sans-serif;

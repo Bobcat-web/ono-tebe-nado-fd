@@ -8,6 +8,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  line-height: 100%;
 }
 .header {
   display: grid;
@@ -19,10 +20,13 @@ body {
   width: 148px;
   height: 105px;
 }
+.header__menu {
+  justify-self: start;
+}
 .header__links-list {
   display: flex;
   list-style-type: circle;
-  gap: 24px;
+  gap: 32px;
   text-underline-offset: 2px;
 }
 .header__links-list-item_no-bullit {

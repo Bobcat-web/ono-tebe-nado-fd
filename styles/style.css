@@ -214,7 +214,7 @@ body {
 }
 .about {
   display: grid;
-  margin: 0 24px 45px;
+  margin: 0 24px;
   justify-items: center;
   grid-template-columns: 334px 1fr;
   column-gap: 27px;
@@ -234,7 +234,6 @@ body {
 }
 .about_content {
   position: relative;
-  padding: 133px 0;
 }
 .about__title {
   font-family: "Raleway", sans-serif;

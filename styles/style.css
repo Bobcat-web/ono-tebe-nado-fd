@@ -215,6 +215,7 @@ body {
 .about {
   display: grid;
   margin: 0 24px;
+  padding: 35px 0 0 47px;
   justify-items: center;
   grid-template-columns: 334px 1fr;
   column-gap: 27px;
